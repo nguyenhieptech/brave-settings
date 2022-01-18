@@ -1,0 +1,73 @@
+/* Custom darkmode extension */
+
+:root {
+	--text-white: #ddd;
+	--text-a-tag: #0ea5e9;
+	--bg-color: #161b22;
+	--comment-bg-color: #30363d;
+	--gr: #19386c;
+	--bg-code-tag: rgb(40, 44, 52);
+	/* --bg-code-tag: #2d2d2d; */
+	--cool-gray-700: #374151;
+}
+
+body,
+div,
+aside,
+nav,
+p,
+header,
+footer,
+ul {
+	color: var(--text-white) !important;
+	background-color: var(--bg-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+strong,
+icon {
+	color: var(--text-white) !important;
+}
+
+span {
+	color: var(--text-white);
+}
+
+a {
+	color: var(--text-a-tag) !important;
+	background-color: var(--comment-bg-color);
+}
+
+pre {
+	background-color: var(--bg-code-tag) !important;
+	border-radius: 8px;
+	border: none;
+	padding: 15px;
+}
+
+code {
+	color: var(--text-white) !important;
+	background-color: var(--bg-code-tag) !important;
+}
+
+blockquote,
+section {
+	background-color: var(--bg-color) !important;
+}
+
+table {
+	color: var(--text-white) !important;
+	background-color: var(--bg-color) !important;
+}
+
+tbody th,
+tbody td,
+tbody tr {
+	background-color: var(--bg-color) !important;
+}
